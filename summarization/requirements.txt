@@ -1,0 +1,32 @@
+numpy==1.19.5
+pandas==1.4.2
+filelock==3.7.1
+protobuf==3.20.1 
+scikit-learn==1.0.1
+pyzmq==22.3.0
+pytorch-lightning==1.5.0
+tensorflow-gpu==2.7.0
+multiprocess==0.70.12
+netifaces==0.11.0
+torchmetrics==0.8.1
+
+#T5 setting install
+sentencepiece==0.1.97
+
+torch==1.12.0+cu116 
+torchvision==0.13.0+cu116 
+torchaudio==0.12.0 
+
+
+# instance created install
+fastapi==0.78.0
+uvicorn==0.17.6
+pika==1.2.1
+gunicorn==20.1.0
+seqeval==1.2.2
+
+#transformers adapter install
+adapter-transformers==3.2.0
+
+# summarization metrics install
+rouge==1.0.1
