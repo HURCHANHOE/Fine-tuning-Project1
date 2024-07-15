@@ -1,7 +1,9 @@
+# jupyterm instance common install
 numpy==1.19.5
 pandas==1.4.2
 filelock==3.7.1
 protobuf==3.20.1 
+#transformers==4.10.0
 scikit-learn==1.0.1
 pyzmq==22.3.0
 pytorch-lightning==1.5.0
@@ -13,9 +15,15 @@ torchmetrics==0.8.1
 #T5 setting install
 sentencepiece==0.1.97
 
-torch==1.12.0+cu116 
-torchvision==0.13.0+cu116 
-torchaudio==0.12.0 
+# gpu setting torch install
+# torch==1.10.0+cu113
+# torchvision==0.11.1+cu113
+# torchaudio==0.10.0+cu113
+
+# gpu setting torch install memory leak 버전 변경
+# torch==1.12.0+cu116 
+# torchvision==0.13.0+cu116 
+# torchaudio==0.12.0 
 
 
 # instance created install
@@ -28,5 +36,10 @@ seqeval==1.2.2
 #transformers adapter install
 adapter-transformers==3.2.0
 
-# summarization metrics install
+# deepspeed install
+# deepspeed==0.8.3
+# mpi4py==3.1.4
+# accelerate==0.18.0
+
+# summarization install
 rouge==1.0.1
