@@ -73,6 +73,8 @@ class SummarizationTrainPipeline(trainPipelineInterface):
 		self.s_model = base_path
 
 		self.label_length = self.train_config.label_length
+		# 임시 추가 변경해야함 qlora로
+		self.pelt_task_name="test"
 
 	def prepare_data(self):
 		logger.info('prepare data start')
